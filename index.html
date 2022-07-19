@@ -4,10 +4,208 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="styles.css">
     <title>Bootstrap demo</title>
   </head>
   <body>
-    
+    <div id="page">
+      <header>
+        <section id="header" >
+          <video id="headerVideo" autoplay="autoplay" loop="loop" autobuffer="autobuffer" 
+            muted="muted" allowfullscreen>
+            <source src="viedeos/worship_banner.webm" type="video/webm">
+            <source src="viedeos/worship_banner.mp4" type="video/mp4">
+          </video>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col">
+                <img src="images/RiLo_logo.png"  alt="Running Refommers logo" id="banner_logo"
+                    class="rounded mx-auto d-block">
+               </div>
+            </div>
+          </div>    
+        </section><!-- Header -->
+        <section id="mission">
+          <div class="container" id="mission_statement">
+            <h1 class="text-center">Mission statement</h1>
+            <h2 class="text-center">Lorum ipsum</h2>
+            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Consectetur a erat nam
+              at lectus urna. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper 
+              malesuada.
+            </p>
+          </div>
+        </section><!-- Mission -->
+        <section id="events">
+          <div class="container">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="images/games2.png" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="images/praise_worship.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="images/teaching.png" alt="Third slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div> 
+        </section><!-- Events -->
+        <section id="purpose">
+          <div class="container">
+            <h1 class="text-center">We want evereryone to feel welcome</h1>
+            <h2 class="text-center">Lorum ipsum</h2>
+            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Consectetur a erat nam
+              at lectus urna. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper 
+              malesuada.
+            </p>
+          </div>
+        </section><!-- Purpose -->
+        <section class="team text-center py-5" id="team">
+          <div class="container">
+            <div class="header my-5">
+              <h1>Meet our Team </h1>
+              <p class="text-muted">The Running Reformers Team Members</p>
+            </div>
+            <div class="row">
+              <div class="col-md-6 col-lg-3">
+                <div class="img-block mb-5">
+                  <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t4.jpg" class="img-fluid  img-thumbnail rounded-circle" alt="image1">
+                  <div class="content mt-2">
+                    <h3>Herman Louw</h3>
+                    <h4 class="text-muted">Youth Pastor</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Consectetur a erat nam at
+                       lectus urna. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper 
+                       malesuada.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3 ">
+                <div class="img-block mb-5">
+                  <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t2.jpg" class="img-fluid  img-thumbnail rounded-circle" alt="image1">
+                  <div class="content mt-2">
+                    <h3>Antonie</h3>
+                    <h4 class="text-muted">Musician</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Consectetur a erat nam at
+                       lectus urna. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper 
+                       malesuada.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <div class="img-block mb-5">
+                  <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t1.jpg" class="img-fluid  img-thumbnail rounded-circle" alt="image1">
+                  <div class="content mt-2">
+                    <h3>Danielle Louw</h3>
+                    <h4 class="text-muted">Dominee se vrou</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Consectetur a erat nam at
+                       lectus urna. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper 
+                       malesuada.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <div class="img-block mb-5">
+                  <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t3.jpg" class="img-fluid  img-thumbnail rounded-circle" alt="image1">
+                  <div class="content mt-2">
+                    <h3>Jurgens</h3>
+                    <h4 class="text-muted">Lead Pastor</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Consectetur a erat nam at
+                       lectus urna. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper 
+                       malesuada.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section><!-- Team -->
+        <section id="future">
+          <div class="container">
+            <h1 class="text-center">We want evereryone to feel welcome</h1>
+            <h2 class="text-center">Lorum ipsum</h2>
+            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Consectetur a erat nam
+              at lectus urna. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper 
+              malesuada.
+            </p>
+          </div>
+        </section>
+        <section id="gallery">
+          <div class="container">
+            <h1>Gallery</h1>
+            <h2>A small indication of the fun you will have with us</h2>
+            <div class="row">
+              <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Boat on Calm Water"
+                />
+  
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Wintry Mountain Landscape"
+                />
+              </div>
+  
+              <div class="col-lg-4 mb-4 mb-lg-0">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Mountains in the Clouds"
+                />
+  
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Boat on Calm Water"
+                />
+              </div>
+  
+              <div class="col-lg-4 mb-4 mb-lg-0">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Waves at Sea"
+                />
+  
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Yosemite National Park"
+                />
+              </div>
+            </div>
+          </div>   
+        </section><!-- Gallery -->
+      </header>
+      <footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark text-white-50">
+        <div class="container text-center">+
+          <small>Copyright &copy; RiLo Web Studio</small>
+        </div>
+      </footer>
+    </div>
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
   </body>
