@@ -1,7 +1,16 @@
-/*section{
-  height: 100vh;
+body{
+  font-family: 'Dosis', sans-serif;
+  font-size: xx-large;
+  }
+h1, h2, h3{
+  font-weight: bold;
 }
-*/
+h1{
+  font-size: 48px ;
+}
+h2{
+  font-size: 36px;
+}
 /* section background colors */
 #mission{
   background-color: #EC5658;
@@ -44,12 +53,11 @@
 
 #banner_logo{
   width: auto;
-  height: 100vh;
+  height: auto;
 }
 
-#mission_statement{
+#mission_statement, h1, h2{
   position: relative;
-  top: 50%;
   text-align: center;
   margin: 0 auto;
 }

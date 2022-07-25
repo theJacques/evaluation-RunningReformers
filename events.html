@@ -6,19 +6,21 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;400;700&display=swap" rel="stylesheet">
     <title>Events</title>
   </head>
   <body>
     <div id="page">
       <header>
-        <nav>
+        <nav class="bg-dark link-light">
           <ul class="nav justify-content-end">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link link-light active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="events.html">Events</a>
+              <a class="nav-link link-light" href="events.html">Events</a>
             </li>
             <li class="nav-item">
               <a class="nav-link disabled" href="#">Contact</a>
@@ -27,8 +29,8 @@
         </nav>
       </header>
       <section id="events">
-        <div class="container">
-          <h1>Friday Night Youth</h1>
+        <div class="container py-5">
+          <h1 class="pb-5" >Friday Night Youth</h1>
           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -58,29 +60,45 @@
         </div> 
       </section><!-- Events -->
       <section id="description">
-        <div class="container">
+        <div class="container py-5">
           <h2>What is Friday Night Youth all about?</h2>
-          <p>Every Friday we get together to connect, learn and have some fun!</p>
-          <h3>Games</h3>
-          <p>We start of with some icebreakers to get to know each other and just
-             to have some fun in a safe environment.</p>
-          <h3>Praise and worship</h3>
-          <p>We spend some time to praise and worship.</p>
-          <h3>Teaching of the word</h3>
-          <p>Every Friday night we discuss a different topic. Herman, our youth Pastor,
-            will talk about a certain topic and afterwards you, the youth, will discuss it furhter
-            in small groups.</p>   
+          <p class="text-center pb-5">Every Friday we get together to connect, learn and have some fun!</p>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <h3>Games</h3>
+              <p>We start of with some icebreakers to get to know each other and just
+                to have some fun in a safe environment. Warning, you might get dirty.</p>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <h3>Praise and worship</h3>
+              <p>We spend some time to praise and worship. We have our own band to lead us in worship.
+                This will prepare us for the scripture that will follow.
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <h3>Teaching of the word</h3>
+              <p>Every Friday night we discuss a different topic. Herman, our youth Pastor,
+                will talk about a certain topic and afterwards you will discuss it further
+                in small groups.</p>   
+            </div>
+          </div>
         </div>
       </section><!-- description -->
       <section id="info">
-        <div class="container">
-          <h2>When and Where</h2>
-          <h3>Date</h3>
-          <p>Every Friday night except for school holidays.<br>
-            Keep an eye on Instagram to get notified of any changements. </p>
-          <h3>Place</h3>
-          <p>Family Life Church.<br>
-          92 De Bruin St. Ermelo 2351</p>
+        <div class="container py-5">
+          <h2 class="pb-5">When and Where</h2>
+          <div class="row">
+            <div class="col-lg-6 col-sm-12">
+              <h3>Date</h3>
+              <p>Every Friday night except for school holidays.<br>
+               Keep an eye on Instagram to get notified of any changements. </p>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+              <h3>Place</h3>
+               <p>Family Life Church.<br>
+                 92 De Bruin St. Ermelo 2351</p>
+            </div>
+          </div>
         </div>
       </section><!-- info -->
       <footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark text-white-50">

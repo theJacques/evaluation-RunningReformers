@@ -6,19 +6,22 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;400;700&display=swap" rel="stylesheet">
     
     <title>Running Reformers</title>
   </head>
   <body>
     <div id="page">
       <header>
-        <nav>
+        <nav class="bg-dark">
           <ul class="nav justify-content-end">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link link-light active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="events.html">Events</a>
+              <a class="nav-link link-light" href="events.html">Events</a>
             </li>
             <li class="nav-item">
               <a class="nav-link disabled" href="#">Contact</a>
@@ -32,29 +35,24 @@
             <source src="assets/videos/worship_banner.webm" type="video/webm">
             <source src="assets/videos/worship_banner.mp4" type="video/mp4">
           </video>
-          <div class="container">
-            <div class="row">
-              <div class="col">
-                <img src="assets/images/transparent_logo.png"  alt="Running Refommers logo" id="banner_logo"
-                    class="rounded mx-auto d-block">
-               </div>
-            </div>
+          <div class="container-fluid">
+            <img src="assets/images/transparent_logo.png"  alt="Running Refommers logo" id="banner_logo"
+               class="mx-auto d-block img-fluid">
           </div>    
         </section><!-- Banner -->
         <section id="mission">
-          <div class="container" id="mission_statement">
-            <h1 class="text-center">Mission statement</h1>
-            <h2 class="text-center">Lorum ipsum</h2>
-            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Consectetur a erat nam
-              at lectus urna. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper 
-              malesuada.
-            </p>
+          <div class="container py-5" id="mission_statement">
+            <h1 class="text-center">Family Life church is a church that believes in Jesus, a church that loves God and people.</h1>
+            <blockquote class="blockquote">
+              <p class="text-center">Overwhelmed by the gift of salvation we have found in Jesus,
+                 we have a heart for authentic worship, are passionate about the local church,
+                  and are on mission to see God’s kingdom established across the earth.
+              </p>
+            </blockquote>
           </div>
         </section><!-- Mission -->
-        <section id="events">
-          <div class="container">
-            <h1>Friday Night Youth</h1>
+        <section id="events" >
+          <div class="container-fluid">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
               <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -84,9 +82,9 @@
           </div> 
         </section><!-- Events -->
         <section id="purpose">
-          <div class="container">
-            <h1 class="text-center">We want evereryone to feel welcome</h1>
-            <h2 class="text-center">Lorum ipsum</h2>
+          <div class="container py-5">
+            <h2 class="text-center">We want evereryone to feel welcome</h2>
+            <h3 class="text-center">Lorum ipsum</h3>
             <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua. Consectetur a erat nam
               at lectus urna. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper 
@@ -94,23 +92,20 @@
             </p>
           </div>
         </section><!-- Purpose -->
-        <section class="team text-center py-5" id="team">
+        <section class="team text-center" id="team">
           <div class="container">
-            <div class="header my-5">
-              <h1>Meet our Team </h1>
-              <p class="text-muted">The Running Reformers Team Members</p>
+            <div class="header py-5">
+              <h2>Meet our Team </h2>
+              <h3>The Running Reformers Team Members</h3>
             </div>
             <div class="row">
               <div class="col-md-6 col-lg-3">
                 <div class="img-block mb-5">
                   <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t4.jpg" class="img-fluid  img-thumbnail rounded-circle" alt="image1">
                   <div class="content mt-2">
-                    <h3>Herman Louw</h3>
+                    <h3>Herman</h3>
                     <h4 class="text-muted">Youth Pastor</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                      tempor incididunt ut labore et dolore magna aliqua. Consectetur a erat nam at
-                       lectus urna. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper 
-                       malesuada.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, aliquam cupiditate!</p>
                   </div>
                 </div>
               </div>
@@ -120,10 +115,7 @@
                   <div class="content mt-2">
                     <h3>Antonie</h3>
                     <h4 class="text-muted">Musician</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                      tempor incididunt ut labore et dolore magna aliqua. Consectetur a erat nam at
-                       lectus urna. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper 
-                       malesuada.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, aliquam cupiditate!</p>
                   </div>
                 </div>
               </div>
@@ -133,10 +125,7 @@
                   <div class="content mt-2">
                     <h3>Danielle Louw</h3>
                     <h4 class="text-muted">Dominee se vrou</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                      tempor incididunt ut labore et dolore magna aliqua. Consectetur a erat nam at
-                       lectus urna. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper 
-                       malesuada.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, aliquam cupiditate!</p>
                   </div>
                 </div>
               </div>
@@ -146,10 +135,7 @@
                   <div class="content mt-2">
                     <h3>Jurgens</h3>
                     <h4 class="text-muted">Lead Pastor</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                      tempor incididunt ut labore et dolore magna aliqua. Consectetur a erat nam at
-                       lectus urna. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper 
-                       malesuada.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, aliquam cupiditate!</p>
                   </div>
                 </div>
               </div>
@@ -157,9 +143,9 @@
           </div>
         </section><!-- Team -->
         <section id="future">
-          <div class="container">
-            <h1 class="text-center">We want evereryone to feel welcome</h1>
-            <h2 class="text-center">Lorum ipsum</h2>
+          <div class="container py-5">
+            <h2>With us you will grow like never before</h2>
+            <h3 class="text-center">Lorum ipsum</h3>
             <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua. Consectetur a erat nam
               at lectus urna. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper 
@@ -168,9 +154,9 @@
           </div>
         </section>
         <section id="gallery">
-          <div class="container">
-            <h1>Gallery</h1>
-            <h2>A small indication of the fun you will have with us</h2>
+          <div class="container py-5">
+            <h2>Gallery</h2>
+            <h3 class="mb-5 text-center">A small indication of the fun you will have with us</h3>
             <div class="row">
               <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
                 <img
