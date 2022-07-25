@@ -24,8 +24,15 @@
 #creator{
   background-color: ;
 }
+#description{
+  background-color: #FDDF58;
+}
+#info{
+  background-color: #EC5658;
+}
 
-#headerVideo {
+
+#bannerVideo {
   position: fixed;
   right: 0;
   bottom: 0;
